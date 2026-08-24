@@ -1,7 +1,10 @@
-error id: file://<HOME>/Desktop/scala%20program/trait.scala:[313,313) in virtfile:file://<HOME>/Desktop/scala%20program/trait.scala(... ain trait
-)
-file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/trait.scala
-file://<HOME>/Desktop/scala%20program/trait.scala:22: error: expected identifier; obtained eof
+error id: file://<HOME>/Desktop/scala%20program/pvtvarialble.scala:[520,521) in virtfile:file://<HOME>/Desktop/scala%20program/pvtvarialble.scala(...  {
+  def 
+}
+
+// objec ...)
+file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/pvtvarialble.scala
+file://<HOME>/Desktop/scala%20program/pvtvarialble.scala:24: error: expected identifier; obtained rbrace
 
 
 Current stack trace:
@@ -13,9 +16,14 @@ scala.util.Try$.apply(Try.scala:217)
 scala.meta.internal.metals.StdReporter.create(ReportContext.scala:143)
 scala.meta.pc.reports.Reporter.create(Reporter.java:10)
 scala.meta.internal.mtags.ScalaToplevelMtags.reportError(ScalaToplevelMtags.scala:1233)
-scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:1107)
-scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:788)
-scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:263)
+scala.meta.internal.mtags.ScalaToplevelMtags.methodIdentifier(ScalaToplevelMtags.scala:1144)
+scala.meta.internal.mtags.ScalaToplevelMtags.emitTerm(ScalaToplevelMtags.scala:908)
+scala.meta.internal.mtags.ScalaToplevelMtags.$anonfun$loop$16(ScalaToplevelMtags.scala:344)
+scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+scala.meta.internal.mtags.MtagsIndexer.withOwner(MtagsIndexer.scala:53)
+scala.meta.internal.mtags.MtagsIndexer.withOwner$(MtagsIndexer.scala:50)
+scala.meta.internal.mtags.ScalaToplevelMtags.withOwner(ScalaToplevelMtags.scala:49)
+scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:344)
 scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:96)
 scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:83)
 scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:562)
@@ -33,8 +41,8 @@ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j
 java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 java.base/java.lang.Thread.run(Thread.java:1516)
 
-
+}
 ^
 #### Short summary: 
 
-expected identifier; obtained eof
+expected identifier; obtained rbrace

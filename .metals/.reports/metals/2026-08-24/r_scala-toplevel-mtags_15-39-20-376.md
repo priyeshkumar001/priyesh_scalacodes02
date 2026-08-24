@@ -1,7 +1,9 @@
-error id: file://<HOME>/Desktop/scala%20program/trait.scala:[313,313) in virtfile:file://<HOME>/Desktop/scala%20program/trait.scala(... in trait 
-)
-file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/trait.scala
-file://<HOME>/Desktop/scala%20program/trait.scala:22: error: expected identifier; obtained eof
+error id: file://<HOME>/Desktop/scala%20program/pvtvarialble.scala:[505,506) in virtfile:file://<HOME>/Desktop/scala%20program/pvtvarialble.scala(... 
+
+object  {
+  def dis ...)
+file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/pvtvarialble.scala
+file://<HOME>/Desktop/scala%20program/pvtvarialble.scala:22: error: expected identifier; obtained lbrace
 
 
 Current stack trace:
@@ -33,8 +35,8 @@ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.j
 java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 java.base/java.lang.Thread.run(Thread.java:1516)
 
-
-^
+object  {
+        ^
 #### Short summary: 
 
-expected identifier; obtained eof
+expected identifier; obtained lbrace

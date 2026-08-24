@@ -1,7 +1,8 @@
-error id: file://<HOME>/Desktop/scala%20program/trait.scala:[311,311) in virtfile:file://<HOME>/Desktop/scala%20program/trait.scala(... ain trait
+error id: file://<HOME>/Desktop/scala%20program/pvt_varialble.scala:[185,185) in virtfile:file://<HOME>/Desktop/scala%20program/pvt_varialble.scala(... )
+object 
 )
-file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/trait.scala
-file://<HOME>/Desktop/scala%20program/trait.scala:22: error: expected identifier; obtained eof
+file://<HOME>/Desktop/scala%20program/file:<HOME>/Desktop/scala%2520program/pvt_varialble.scala
+file://<HOME>/Desktop/scala%20program/pvt_varialble.scala:5: error: expected identifier; obtained eof
 
 
 Current stack trace:

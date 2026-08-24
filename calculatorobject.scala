@@ -1,14 +1,14 @@
 object calculatorobject {
-    def add(a,b): Int ={
+    def add(a:Int,b:Int): Int ={
         a+b
     }
-    def subtract(a,b): Int ={
+    def subtract(a:Int,b:Int): Int ={
         a-b
     }
-    def multiply(a,b): Int ={
+    def multiply(a:Int,b:Int): Int ={
         a*b
     }
-    def division(a,b): Float={
+    def division(a:Int , b:Int): Double={
         a/b
     }
 }
