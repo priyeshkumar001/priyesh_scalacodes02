@@ -1,11 +1,6 @@
 // CREATE A PERSON CLASS WITH PRIVATE VARIABLE VARIABLE NAME ALSO CERATE A COMPANION OBJECT THAT ACCESS AND DISPLAY THE PRIVATE VARIABLE 
 
-// class pvt_varialble(var name: String)
-// object pvt_varialble{
-//     def apply(name:String):Unit ={
-//         var n = name("priyesh")
-//     }
-// }
+
 
 class Person {
   private var name = "Priyesh"
@@ -26,12 +21,6 @@ object pvtvarialble {
   }
 }
 
-// object pvtvarialble{
-//   def main(args:Array[String]):Unit={
-//     var obj = new Person
 
-//     Person.displayName(obj)
-//   }
-// }
 
 
